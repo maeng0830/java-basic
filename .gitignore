@@ -1,0 +1,80 @@
+############################################
+# Java / Build
+############################################
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+############################################
+# Maven
+############################################
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+############################################
+# Gradle
+############################################
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+############################################
+# IntelliJ IDEA
+############################################
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+############################################
+# IntelliJ specific caches
+############################################
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/compiler.xml
+.idea/jarRepositories.xml
+
+############################################
+# OS (Windows / macOS / Linux)
+############################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################################
+# Logs
+############################################
+logs/
+*.log
+
+############################################
+# Environment / Secret
+############################################
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+
+############################################
+# Test / Coverage
+############################################
+coverage/
+*.exec
+
+############################################
+# Temporary files
+############################################
+tmp/
+temp/
